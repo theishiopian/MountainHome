@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a80aaef542f6b3498e4db08810936d2, type: 3}
+  m_Name: TestMountainGenerator
+  m_EditorClassIdentifier: 
+  startingDepth: -30
+  mountainCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.053547304
+      outSlope: 0.053547304
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.23343846
+    - serializedVersion: 3
+      time: 0.24600816
+      value: 0.27016667
+      inSlope: 1.9560122
+      outSlope: 1.9560122
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1173449
+      outWeight: 0.30423328
+    - serializedVersion: 3
+      time: 0.33556342
+      value: 0.52868474
+      inSlope: 2.7858922
+      outSlope: -0.029280512
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5957133
+    - serializedVersion: 3
+      time: 0.46687043
+      value: 0.96414375
+      inSlope: 5.281192
+      outSlope: -6.336088
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.092758976
+      outWeight: 0.20162717
+    - serializedVersion: 3
+      time: 0.53796524
+      value: 0.49823898
+      inSlope: -7.584143
+      outSlope: -4.2159705
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21793559
+    - serializedVersion: 3
+      time: 0.64261365
+      value: 0.35954434
+      inSlope: -0.11384685
+      outSlope: -5.2693915
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.16891281
+    - serializedVersion: 3
+      time: 0.76323205
+      value: 0.05600509
+      inSlope: -0.2945008
+      outSlope: -0.2945008
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.95772815
+      outSlope: -0.95772815
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21304975
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  mainTile: {fileID: 11400000, guid: 5d0f16813e99b7148b17b94b690296d2, type: 2}
+  biome: {fileID: 11400000, guid: cc1c1bbbfedf6b848a0622661fb35fd4, type: 2}
+  height: 250
+  slope: 0.01
+  preMultiply: 0.1
+  postMultiply: 10
+  fadeDepth: 0
+  fade:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
